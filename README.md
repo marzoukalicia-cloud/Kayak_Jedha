@@ -43,16 +43,20 @@ Conformément aux exigences strictes du cahier des charges, deux livrables carto
 ## 📂 Structure du Répertoire GitHub
 
 ```text
-📦 kayak-data-engineering-pipeline
- ┣ 📂 notebooks
+📦 kayak_Jedha
+ ┣ 📂 notebook
  ┃ ┗ 📜 2.projet_kayak_AMK.ipynb      # Pipeline ETL complet, connexion RDS et requêtes analytiques
- ┣ 📂 scripts
+ ┣ 📂 script
  ┃ ┗ 📜 scrape_booking.py             # Script de scraping Playwright (Booking.com)
  ┣ 📂 outputs
- ┃ ┗ 📂 viz
+ ┃ ┗ 📂 maps
  ┃   ┣ 📜 top_5_destinations_map.html # Carte interactive des villes (HTML)
  ┃   ┣ 📜 top_5_destinations_map.png  # Capture statique des villes pour présentation
  ┃   ┣ 📜 top_20_hotels_map.html      # Carte interactive des hôtels (HTML)
  ┃   ┗ 📜 top_20_hotels_map.png       # Capture statique des hôtels pour présentation
- ┣ 📜 city_scores_20january2026.csv   # Données sources intermédiaires indexées
+ ┃ ┗ 📂 data
+ ┃   ┣📜 cities_hotels_enriched.csv   # 
+ ┃   ┣📜 city_scores_20january2026.csv   # Données sources intermédiaires indexées
+ ┃   ┣📜 hotels_top5.csv
+ ┃   ┣📜 hotels_top5_clean.csv
  ┗ 📜 README.md                       # Documentation officielle du projet
