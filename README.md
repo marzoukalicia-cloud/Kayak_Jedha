@@ -55,8 +55,11 @@ Conformément aux exigences strictes du cahier des charges, deux livrables carto
  ┃   ┣ 📜 top_20_hotels_map.html      # Carte interactive des hôtels (HTML)
  ┃   ┗ 📜 top_20_hotels_map.png       # Capture statique des hôtels pour présentation
  ┃ ┗ 📂 data
- ┃   ┣📜 cities_hotels_enriched.csv   # 
- ┃   ┣📜 city_scores_20january2026.csv   # Données sources intermédiaires indexées
- ┃   ┣📜 hotels_top5.csv
- ┃   ┣📜 hotels_top5_clean.csv
+ ┃   ┣ 📜 cities_hotels_enriched.csv   # Dataset final consolidé (Météo + Hôtels) importé dans le Data Warehouse RDS
+ ┃   ┣ 📜 city_scores_20january2026.csv  # Résultats bruts de l'API OpenWeather avec calcul du Weather Score par ville
+ ┃   ┣ 📜 hotels_top5.csv              # Données brutes extraites de Booking.com via le script de scraping Playwright
+ ┃   ┗ 📜 hotels_top5_clean.csv        # Données hôtelières nettoyées et typées (parsing des scores d'évaluation)
  ┗ 📜 README.md                       # Documentation officielle du projet
+
+👨‍💻 Auteur
+Projet conçu, architecturé et codé par Alicia Marzouk dans le cadre du Bloc 1 — Data Collection & Management, certification CDSD RNCP35288 - Niveau 6, Jedha Bootcamp.
