@@ -1,12 +1,6 @@
 # Kayak_Jedha
 Kayak plan your trip - Bloc 1 Data Collection &amp; Management Jedha project
 
-[![Python](https://img.shields.io/badge/Python-3.10-3776AB?style=flat&logo=python&logoColor=fff)](#)
-[![Playwright](https://img.shields.io/badge/Playwright-2B2B2B?style=flat&logo=playwright&logoColor=45ba4b)](#)
-[![AWS_S3](https://img.shields.io/badge/AWS_S3-569A31?style=flat&logo=amazons3&logoColor=fff)](#)
-[![AWS_RDS](https://img.shields.io/badge/AWS_RDS-527FFF?style=flat&logo=amazonrds&logoColor=fff)](#)
-[![JEDHA](https://img.shields.io/badge/JEDHA-Bloc%202-blueviolet?style=flat)](#)
-
 ## 🎯 Contexte & Objectif Métier
 Le département marketing de **Kayak** a mis en évidence que 70% des utilisateurs planifiant un voyage réclament des informations fiables et centralisées sur leurs destinations. 
 Pour répondre à ce besoin, ce projet déploie une application d'ingénierie de données capable de collecter, stocker et structurer en temps réel des données combinées sur la **météo à 7 jours** et la **satisfaction des structures hôtelières** afin de recommander dynamiquement le Top-5 des destinations idéales en France ainsi que leurs 20 meilleurs hôtels.
